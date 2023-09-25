@@ -186,7 +186,7 @@ Terraform sources their providers and modules from the Terraform registry which 
 - **Providers** is an interface to APIs that will allow to create resources in terraform.
 - **Modules** are a way to make large amount of terraform code modular, portable and sharable.
 
-[Randon Terraform Provider](https://registry.terraform.io/providers/hashicorp/random)
+[Random Terraform Provider](https://registry.terraform.io/providers/hashicorp/random)
 
 ### Terraform Console
 
@@ -218,7 +218,7 @@ If we want to automatically approve an apply we can provide the auto approve fla
 `teraform destroy`
 This will destroy resources.
 
-You can alos use the auto approve flag to skip the approve prompt eg. `terraform apply --auto-approve`
+You can also use the auto approve flag to skip the approve prompt eg. `terraform apply --auto-approve`
 
 #### Terraform Lock Files
 
