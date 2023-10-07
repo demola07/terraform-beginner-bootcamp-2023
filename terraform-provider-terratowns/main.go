@@ -63,7 +63,7 @@ func Provider() *schema.Provider {
 			},
 		},
 	}
-	p.ConfigureContextFunc = pro viderConfigure(p)
+	p.ConfigureContextFunc = providerConfigure(p)
 	return p
 }
 
